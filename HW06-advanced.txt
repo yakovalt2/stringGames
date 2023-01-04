@@ -1,0 +1,11 @@
+String games - 1st - fix the clock/
+               2nd - random quote
+               3rd - is it a palindrome?
+               4th - gematria
+               5th - find all the anagrams
+
+For the word games :
+
+const strArr = strInputEl.value.replace(/[^א-ת]/g,"").replace(/ך/g,"כ").replace(/ם/g,"מ").replace(/ן/g,"נ").replace(/ץ/g,"צ").split("");
+        
+To be continued ...
